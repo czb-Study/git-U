@@ -1,0 +1,35 @@
+﻿生成启动时间为 2019/3/27 23:59:06。
+     1>项目“F:\cocos2d-x-2.2.6\cocos2d-x-2.2.6\projects\box2d-basketball\proj.win32\box2d-basketball.vcxproj”在节点 2 上(Build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug.win32\box2d-basketball.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         F:\vs2012\VC\bin\CL.exe /c /I"F:\cocos2d-x-2.2.6\cocos2d-x-2.2.6\projects\box2d-basketball\proj.win32\..\..\..\cocos2dx" /I"F:\cocos2d-x-2.2.6\cocos2d-x-2.2.6\projects\box2d-basketball\proj.win32\..\..\..\cocos2dx\include" /I"F:\cocos2d-x-2.2.6\cocos2d-x-2.2.6\projects\box2d-basketball\proj.win32\..\..\..\cocos2dx\kazmath\include" /I"F:\cocos2d-x-2.2.6\cocos2d-x-2.2.6\projects\box2d-basketball\proj.win32\..\..\..\cocos2dx\platform\win32" /I"F:\cocos2d-x-2.2.6\cocos2d-x-2.2.6\projects\box2d-basketball\proj.win32\..\..\..\cocos2dx\platform\third_party\win32" /I"F:\cocos2d-x-2.2.6\cocos2d-x-2.2.6\projects\box2d-basketball\proj.win32\..\..\..\cocos2dx\platform\third_party\win32\OGLES" /I"F:\cocos2d-x-2.2.6\cocos2d-x-2.2.6\projects\box2d-basketball\proj.win32\..\..\..\external" /I"F:\cocos2d-x-2.2.6\cocos2d-x-2.2.6\projects\box2d-basketball\proj.win32\..\..\..\external\chipmunk\include\chipmunk" /I"F:\cocos2d-x-2.2.6\cocos2d-x-2.2.6\projects\box2d-basketball\proj.win32\..\..\..\CocosDenshion\include" /I"F:\cocos2d-x-2.2.6\cocos2d-x-2.2.6\projects\box2d-basketball\proj.win32\..\..\..\extensions" /I..\Classes /I.. /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\basketball.cpp
+         basketball.cpp
+     1>f:\cocos2d-x-2.2.6\cocos2d-x-2.2.6\projects\box2d-basketball\classes\basketball.cpp(108): warning C4305: “参数”: 从“double”到“float”截断
+     1>f:\cocos2d-x-2.2.6\cocos2d-x-2.2.6\projects\box2d-basketball\classes\basketball.cpp(163): warning C4305: “=”: 从“double”到“float32”截断
+       PreLinkEvent:
+         if not exist "F:\cocos2d-x-2.2.6\cocos2d-x-2.2.6\projects\box2d-basketball\proj.win32\Debug.win32\" mkdir "F:\cocos2d-x-2.2.6\cocos2d-x-2.2.6\projects\box2d-basketball\proj.win32\Debug.win32\"
+         xcopy /Y /Q "F:\cocos2d-x-2.2.6\cocos2d-x-2.2.6\projects\box2d-basketball\proj.win32\..\..\..\external\libwebsockets\win32\lib\*.*" "F:\cocos2d-x-2.2.6\cocos2d-x-2.2.6\projects\box2d-basketball\proj.win32\Debug.win32\"
+         :VCEnd
+         复制了 2 个文件
+       Link:
+         F:\vs2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\cocos2d-x-2.2.6\cocos2d-x-2.2.6\projects\box2d-basketball\proj.win32\Debug.win32\box2d-basketball.exe" /INCREMENTAL /NOLOGO /LIBPATH:"F:\cocos2d-x-2.2.6\cocos2d-x-2.2.6\projects\box2d-basketball\proj.win32\Debug.win32\\" libExtensions.lib libcocos2d.lib libCocosDenshion.lib opengl32.lib glew32.lib libBox2d.lib libchipmunk.lib libcurl_imp.lib pthreadVCE2.lib websockets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\cocos2d-x-2.2.6\cocos2d-x-2.2.6\projects\box2d-basketball\proj.win32\Debug.win32\box2d-basketball.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\cocos2d-x-2.2.6\cocos2d-x-2.2.6\projects\box2d-basketball\proj.win32\Debug.win32\box2d-basketball.lib" /MACHINE:X86 /SAFESEH Debug.win32\AppDelegate.obj
+         Debug.win32\basketball.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\MyContactListener.obj
+         Debug.win32\main.obj
+         "F:\cocos2d-x-2.2.6\cocos2d-x-2.2.6\projects\box2d-basketball\proj.win32\Debug.win32\libcocos2d.lib"
+         "F:\cocos2d-x-2.2.6\cocos2d-x-2.2.6\projects\box2d-basketball\proj.win32\Debug.win32\libCocosDenshion.lib"
+         "F:\cocos2d-x-2.2.6\cocos2d-x-2.2.6\projects\box2d-basketball\proj.win32\Debug.win32\libExtensions.lib"
+         "F:\cocos2d-x-2.2.6\cocos2d-x-2.2.6\projects\box2d-basketball\proj.win32\Debug.win32\libBox2D.lib"
+         "F:\cocos2d-x-2.2.6\cocos2d-x-2.2.6\projects\box2d-basketball\proj.win32\Debug.win32\libchipmunk.lib"
+     1>AppDelegate.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         box2d-basketball.vcxproj -> F:\cocos2d-x-2.2.6\cocos2d-x-2.2.6\projects\box2d-basketball\proj.win32\Debug.win32\box2d-basketball.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug.win32\box2d-basketball.unsuccessfulbuild”。
+         正在对“Debug.win32\box2d-basketball.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\cocos2d-x-2.2.6\cocos2d-x-2.2.6\projects\box2d-basketball\proj.win32\box2d-basketball.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.40
